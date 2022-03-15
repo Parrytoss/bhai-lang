@@ -9,7 +9,7 @@ import Terminal from "./Terminal";
 
 
 const initialCode = `
-hi bhai
+oye bhai
  bol bhai "Hello World";
  
   bhai ye hai a = 3;
@@ -25,7 +25,7 @@ hi bhai
     b += 1;
   }
 
-bye bhai
+chal bhai
 `;
 
 const Code = (props: Props) => {
