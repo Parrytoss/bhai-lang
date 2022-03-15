@@ -28,9 +28,9 @@ npm i -g bhailang
 You can also try out your code on <a href="https://bhailang.js.org/#playground">Bhai Lang PlayGround</a></h4>
 
 ```
-hi bhai
+oye bhai
   bol bhai "Hello bhai";
-bye bhai
+chal bhai
 
 ```
 
@@ -49,15 +49,15 @@ hello bhai
 <h2 align="center">Documentation</h2>
 
 <h3 align="center">General</h3>
-<p align="center"><code>hi bhai</code> is the entrypoint for the program and all program must end with <code>bye bhai</code>. Anything outside of it will be ignored.</p>
+<p align="center"><code>oye bhai</code> is the entrypoint for the program and all program must end with <code>chal bhai</code>. Anything outside of it will be ignored.</p>
 
 ```
 
 This will be ignored
 
-hi bhai
+oye bhai
 // Write code here
-bye bhai
+chal bhai
 
 This too
 ```
@@ -67,14 +67,14 @@ This too
 
 ```
 
-hi bhai
+oye bhai
   bhai ye hai a = 10;
   bhai ye hai b = "two";
   bhai ye hai c = 15;
   a = a + 1;
   b = 21;
   c *= 2;
-bye bhai
+chal bhai
 ```
 
 <h3 align="center">Types</h3>
@@ -82,7 +82,7 @@ bye bhai
 
 ```
 
-hi bhai
+oye bhai
   bhai ye hai a = 10;
   bhai ye hai b = 10 + (15*20);
   bhai ye hai c = "two";
@@ -90,7 +90,7 @@ hi bhai
   bhai ye hai e = nalla;
   bhai ye hai f = sahi;
   bhai ye hai g = galat;
-bye bhai
+chal bhai
 ```
 
 <h3 align="center">Built-ins</h3>
@@ -98,7 +98,7 @@ bye bhai
 
 ```
 
-hi bhai
+oye bhai
   bol bhai "Hello World";
   bhai ye hai a = 10;
   {
@@ -106,7 +106,7 @@ hi bhai
     bol bhai a + b;
   }
   bol bhai 5, 'ok', nalla , sahi , galat;
-bye bhai
+chal bhai
 ```
 
 <h3 align="center">Conditionals</h3>
@@ -114,14 +114,14 @@ bye bhai
 
 ```
 
-hi bhai
+oye bhai
   bhai ye hai a = 10;
   agar bhai (a < 25) {
    bol bhai "a is less than 25";
   } warna bhai {
    bol bhai "a is greater than or equal to 25";
   }
-bye bhai
+chal bhai
 ```
 
 <h3 align="center">Loops</h3>
@@ -130,7 +130,7 @@ bye bhai
 
 ```
 
-hi bhai
+oye bhai
   bhai ye hai a = 0;
   jab tak bhai (a < 10) {
    a += 1;
@@ -144,7 +144,7 @@ hi bhai
    bol bhai a;
   }
   bol bhai "done";
-bye bhai
+chal bhai
 ```
 
 
