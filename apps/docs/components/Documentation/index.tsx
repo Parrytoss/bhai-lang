@@ -7,17 +7,17 @@ const features = [
     name: "General",
     description: (
       <>
-        <code className="language-cpp">hi bhai</code> is the entrypoint for the
+        <code className="language-cpp">oye bhai</code> is the entrypoint for the
         program and all program must end with{" "}
-        <code className="language-cpp">bye bhai</code>. Anything outside of it
+        <code className="language-cpp">chal bhai</code>. Anything outside of it
         will be ignored.
       </>
     ),
     code: `This will be ignored
 
-hi bhai
+oye bhai
   // Write code here
-bye bhai
+chal bhai
 
 This too
     `,
@@ -30,14 +30,14 @@ This too
         <code className="language-cpp">bhai ye hai</code>.
       </>
     ),
-    code: `hi bhai
+    code: `oye bhai
     bhai ye hai a = 10;
     bhai ye hai b = "two";
     bhai ye hai c = 15;
     a = a + 1;
     b = 21;
     c *= 2;
-bye bhai
+chal bhai
     `,
   },
   {
@@ -50,7 +50,7 @@ bye bhai
         <code className="language-cpp">galat</code> are the boolean values.
       </>
     ),
-    code: `hi bhai
+    code: `oye bhai
     bhai ye hai a = 10;
     bhai ye hai b = 10 + (15*20);
     bhai ye hai c = "two";
@@ -58,7 +58,7 @@ bye bhai
     bhai ye hai e = nalla;
     bhai ye hai f = sahi;
     bhai ye hai g = galat;
-bye bhai
+chal bhai
     `,
   },
   {
@@ -69,7 +69,7 @@ bye bhai
         console.
       </>
     ),
-    code: `hi bhai
+    code: `oye bhai
     bol bhai "Hello World";
     bhai ye hai a = 10;
     {
@@ -77,7 +77,7 @@ bye bhai
        bol bhai a + b;
     }
     bol bhai 5, 'ok', nalla , sahi , galat;
-bye bhai
+chal bhai
     `,
   },
   {
@@ -87,14 +87,14 @@ bye bhai
         Bhailang supports simple if else construct , <code className="language-cpp">agar bhai</code> block will execute if condition is <code className="language-cpp">sahi</code> and <code className="language-cpp">warna bhai</code> block will execute if condition is <code className="language-cpp">galat</code>.
       </>
     ),
-    code: `hi bhai
+    code: `oye bhai
     bhai ye hai a = 10;
     agar bhai (a < 25) {
       bol bhai "a is less than 25";
     } warna bhai {
       bol bhai "a is greater than or equal to 25";
     }
-bye bhai
+chal bhai
     `
   },
   {
@@ -105,7 +105,7 @@ bye bhai
         Use <code className="language-cpp">bas kar bhai</code> to break the loop and <code className="language-cpp">agla dekh bhai</code> to continue within loop.
       </>
     ),
-    code: `hi bhai
+    code: `oye bhai
     bhai ye hai a = 0;
     jab tak bhai (a < 10) {
       a += 1;
@@ -119,7 +119,7 @@ bye bhai
       bol bhai a;
     }
     bol bhai "done";
-bye bhai
+chal bhai
     `
   }
 
